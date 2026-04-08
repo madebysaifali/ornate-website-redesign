@@ -1,0 +1,805 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Orantes - IT Solutions</title>
+    <!--==============FavIcon Here ====================-->
+    <link rel="shortcut icon" href="./images/Fav-icon.png" type="image/x-icon">
+    <!--=========================Bootstrap CDN LINK HERE  ================-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!--==============================ANimation AOS LINK HERE ======================== -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!--========================Bootstrap Font icon link here ================================ -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+      rel="stylesheet"
+    />
+    <!--========================Font Awesome CDN JS LINK HERE==============================-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Clash+Display:wght@400;500;600;700&family=Bricolage+Grotesque:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--==========================STYLE>CSS HERR============================-->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ====================== CURSOR ================ -->
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-follower" id="cursorFollower"></div>
+
+    <!-- =========================NAVBAR HTML WORK START HERE =============================-->
+    <nav id="mainNav" class="navbar navbar-expand-lg pt-2 pb-2">
+      <div class="container" style="max-width: 1280px">
+        <a class="navbar-brand" href="#home"
+          ><img src="./images/ornate-logo.png" alt="LOGO" style="width: 180px"
+        /></a>
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navMenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navMenu">
+          <ul class="navbar-nav mx-auto gap-lg-1">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#clients">Clients</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+          <a href="#contact" class="btn btn-green mt-3 mt-lg-0">Get Started</a>
+        </div>
+      </div>
+    </nav>
+    <!--=========================================Navbar HTML WORK END  =============================-->
+    <!-- ===========================HeroBanner Html Code Start  Here======================-->
+    <section id="home">
+      <div class="container" id="hero-container">
+        <div class="hero-pattern"></div>
+        <div class="hero-orb-1"></div>
+        <div class="hero-orb-2"></div>
+        <div class="container" style="max-width: 1280px">
+          <div class="row align-items-center g-5">
+            <div class="col-lg-6">
+              <div class="fade-up">
+                <span class="badge-green mb-4 d-inline-block"
+                  ><i class="bi bi-stars me-1"></i> Innovative IT
+                  Solutionsr</span
+                >
+              </div>
+              <h1 class="hero-title fade-up delay-1">
+                with power of <br /><span class="gradient-text">
+                  technology</span
+                >
+              </h1>
+              <p
+                class="mt-4 mb-5 text-secondary fade-up delay-2"
+                style="font-size: 1.1rem; line-height: 1.8; max-width: 520px"
+              >
+                Empower your business with cutting-edge technology solutions. We
+                deliver innovation, reliability, and excellence in every
+                project.
+              </p>
+              <div class="d-flex flex-wrap gap-3 mb-5 fade-up delay-3">
+                <a href="#services" class="btn btn-green"
+                  >Start Your Journey <i class="bi bi-arrow-right ms-2"></i
+                ></a>
+                <a href="#about" class="btn btn-outline-green">Learn More</a>
+              </div>
+              <div
+                class="d-flex align-items-center gap-4 hero-stats fade-up delay-4"
+              >
+                <div>
+                  <div class="stat-num">16+</div>
+                  <div class="stat-label">Years Experience</div>
+                </div>
+                <div class="stat-divider"></div>
+                <div>
+                  <div class="stat-num">1000+</div>
+                  <div class="stat-label">Projects Delivered</div>
+                </div>
+                <div class="stat-divider"></div>
+                <div>
+                  <div class="stat-num">87%</div>
+                  <div class="stat-label">Client Retention</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 d-none d-lg-block">
+              <div class="hero-visual fade-up delay-2">
+                <div class="glass-card glass-card-1">
+                  <div class="card-icon-block"></div>
+                  <div class="card-line" style="width: 75%"></div>
+                  <div class="card-line" style="width: 50%"></div>
+                </div>
+                <div class="glass-card glass-card-3"></div>
+                <div class="glass-card glass-card-2">
+                  <div class="text-center">
+                    <div
+                      style="
+                        width: 72px;
+                        height: 72px;
+                        background: var(--green-600);
+                        border-radius: 18px;
+                        margin: 0 auto 1rem;
+                      "
+                    ></div>
+                    <div class="card-line" style="width: 100%"></div>
+                    <div class="card-line" style="width: 80%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ trusted brands section html work start here===================== -->
+    <section class="logos-band">
+      <div class="container">
+        <p class="logos-label">Trusted by industry leaders worldwide</p>
+        <div class="logos-ticker">
+          <div class="logos-track">
+            <div class="logo-slide">
+              <a href="#"
+                ><img
+                  src="./images/client-10-removebg-preview.png"
+                  alt="client"
+              /></a>
+            </div>
+            <div class="logo-slide">
+              <a href="#"
+                ><img src="./images/client-3-removebg-preview.png" alt="client"
+              /></a>
+            </div>
+            <div class="logo-slide">
+              <a href="#"><img src="./images/client-4.jpg" alt="client" /></a>
+            </div>
+            <div class="logo-slide">
+              <a href="#"
+                ><img src="./images/client-5-removebg-preview.png" alt="client"
+              /></a>
+            </div>
+            <div class="logo-slide">
+              <a href="#"
+                ><img src="./images/client-6-removebg-preview.png" alt="client"
+              /></a>
+            </div>
+            <div class="logo-slide">
+              <a href="#"
+                ><img src="./images/client-7-removebg-preview.png" alt="client"
+              /></a>
+            </div>
+            <div class="logo-slide">
+              <a href="#"
+                ><img src="./images/client-8-removebg-preview.png" alt="client"
+              /></a>
+            </div>
+
+            <!--==================Dupilicate SIlde==============  -->
+            <div class="logo-slide">
+              <a href="#"
+                ><img
+                  src="./images/client-10-removebg-preview.png"
+                  alt="client"
+              /></a>
+            </div>
+            <div class="logo-slide">
+              <a href="#"
+                ><img src="./images/client-3-removebg-preview.png" alt="client"
+              /></a>
+            </div>
+            <div class="logo-slide">
+              <a href="#"><img src="./images/client-4.jpg" alt="client" /></a>
+            </div>
+            <div class="logo-slide">
+              <a href="#"
+                ><img src="./images/client-5-removebg-preview.png" alt="client"
+              /></a>
+            </div>
+            <div class="logo-slide">
+              <a href="#"
+                ><img src="./images/client-6-removebg-preview.png" alt="client"
+              /></a>
+            </div>
+            <div class="logo-slide">
+              <a href="#"
+                ><img src="./images/client-7-removebg-preview.png" alt="client"
+              /></a>
+            </div>
+            <div class="logo-slide">
+              <a href="#"
+                ><img src="./images/client-8-removebg-preview.png" alt="client"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ============================ trusted brands section html work Ende====================== -->
+    <!--==========================Client Section HTML WORk START HERE ==============================-->
+    <section id="stats">
+      <div class="container" style="max-width: 1280px">
+        <div class="row g-4">
+          <div class="col-6 col-lg-3 fade-up">
+            <div class="stat-card">
+              <div class="stat-icon-wrap">
+                <i class="bi bi-award text-white fs-4"></i>
+              </div>
+              <div class="big-num">16+</div>
+              <div class="card-title">Years of Excellence</div>
+              <div class="card-desc">Delivering quality solutions</div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3 fade-up delay-1">
+            <div class="stat-card">
+              <div class="stat-icon-wrap">
+                <i class="bi bi-graph-up-arrow text-white fs-4"></i>
+              </div>
+              <div class="big-num">100%</div>
+              <div class="card-title">Business Growth</div>
+              <div class="card-desc">Long-term partnerships</div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3 fade-up delay-2">
+            <div class="stat-card">
+              <div class="stat-icon-wrap">
+                <i class="bi bi-bullseye text-white fs-4"></i>
+              </div>
+              <div class="big-num">250+</div>
+              <div class="card-title">Active Projects</div>
+              <div class="card-desc">Ongoing innovations</div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3 fade-up delay-3">
+            <div class="stat-card">
+              <div class="stat-icon-wrap">
+                <i class="bi bi-people text-white fs-4"></i>
+              </div>
+              <div class="big-num">1000+</div>
+              <div class="card-title">Happy Clients</div>
+              <div class="card-desc">Worldwide reach</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--===================Client Section HTML WORk START END ====================-->
+    <!-- ==================== ABOUT uS HTMO WORK START HERE ==================== -->
+    <section class="about-sec" id="about">
+      <div class="container">
+        <div class="row g-5 align-items-center">
+          <!-- Image mosaic -->
+          <div class="col-lg-6" data-reveal="right">
+            <div class="about-mosaic">
+              <div class="am-big">
+                <img src="./images/about-img-1.avif" alt="Team collaboration" />
+              </div>
+              <div class="am-small-col">
+                <div class="am-sm">
+                  <img src="./images/about-img-2.jpg" alt="Developer coding" />
+                </div>
+                <div class="am-sm">
+                  <img src="./images/About-img-3.avif" alt="Meeting room" />
+                </div>
+              </div>
+              <div class="am-badge">
+                <strong>16+</strong>
+                <span>Years of<br />Excellence</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Text -->
+          <div class="col-lg-6" data-reveal="left">
+            <div class="section-eyebrow">About Us</div>
+            <h2 class="section-h">Your Technology Partner Since 2008</h2>
+            <p class="section-p">
+              We don't just deploy technology — we architect digital ecosystems.
+              With 200+ engineers and a track record of 500+ enterprise
+              transformations, Ornate stands as the trusted backbone for
+              businesses navigating the complexity of modern IT.
+            </p>
+
+            <div class="about-checklist">
+              <div class="acl-item">
+                <img
+                  src="./images/about-check-01.avif"
+                  alt="Cloud"
+                  class="acl-img"
+                />
+                <div>
+                  <strong>End-to-End Delivery</strong>
+                  <p>
+                    Strategy, architecture, implementation and 24/7 support —
+                    all under one roof.
+                  </p>
+                </div>
+              </div>
+              <div class="acl-item">
+                <img
+                  src="./images/about-check-02.avif"
+                  alt="Security"
+                  class="acl-img"
+                />
+                <div>
+                  <strong>Security-First Culture</strong>
+                  <p>
+                    ISO 27001 certified processes baked into every project from
+                    day one.
+                  </p>
+                </div>
+              </div>
+              <div class="acl-item">
+                <img
+                  src="./images/about-check-03.avif"
+                  alt="Analytics"
+                  class="acl-img"
+                />
+                <div>
+                  <strong>Data-Driven Outcomes</strong>
+                  <p>
+                    Every decision backed by metrics, every result transparently
+                    measured.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <a href="#services" class="btn-main mt-4 d-inline-block"
+              >Our Services →</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ==================== ABOUT uS HTMO WORK END==================== -->
+    <!-- ================ SERVICES Section html work start======================== -->
+    <section class="services-sec" id="services">
+      <div class="container">
+        <div class="text-center mb-70" data-reveal="up">
+          <div class="section-eyebrow mx-auto">Our Services</div>
+          <h2 class="section-h">Services Built for Scale</h2>
+          <p class="section-p mx-auto" style="max-width: 560px">
+            Comprehensive solutions tailored to the demands of modern
+            enterprise.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Card 1 – large -->
+          <div class="srv-card srv-card--large" data-reveal="up" data-delay="0">
+            <div class="srv-img">
+              <img src="./images/cloud.avif" alt="Cloud Solutions" />
+              <div class="srv-img-overlay"></div>
+            </div>
+            <div class="srv-body">
+              <span class="srv-tag">Cloud Services</span>
+              <h4>Cloud Infrastructure & Migration</h4>
+              <p>
+                Cloud services are IT resources, like applications and
+                infrastructure, that are delivered over the internet by
+                third-party providers...
+              </p>
+              <a href="#" class="srv-link">Explore Service →</a>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="srv-card" data-reveal="up" data-delay="100">
+            <div class="srv-img">
+              <img src="./images/web-development.jpg" alt="Dovelopment" />
+              <div class="srv-img-overlay"></div>
+            </div>
+            <div class="srv-body">
+              <span class="srv-tag">dovelopment</span>
+              <h4>Web Development Services</h4>
+              <p>
+                At Ornate TechnoServices we deliver end-to-end IT solutions
+                designed to help businesses thrive in the digital age. Whether
+                you're a startup or an enterprise...
+              </p>
+              <a href="#" class="srv-link">Explore Service →</a>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="srv-card" data-reveal="up" data-delay="200">
+            <div class="srv-img">
+              <img src="./images/ai.avif" alt="AI Automation" />
+              <div class="srv-img-overlay"></div>
+            </div>
+            <div class="srv-body">
+              <span class="srv-tag">AI & ML</span>
+              <h4>AI & Intelligent Automation</h4>
+              <p>
+                Machine learning pipelines, LLM integrations, and RPA
+                deployments that save thousands of man-hours.
+              </p>
+              <a href="#" class="srv-link">Explore Service →</a>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="srv-card" data-reveal="up" data-delay="300">
+            <div class="srv-img">
+              <img
+                src="./images/app-development.png"
+                alt="Moblie App Development"
+              />
+              <div class="srv-img-overlay"></div>
+            </div>
+            <div class="srv-body">
+              <span class="srv-tag">Application</span>
+              <h4>App & Platform Development</h4>
+              <p>
+                Mobile-first, web apps and custom platforms built for
+                performance and longevity.
+              </p>
+              <a href="#" class="srv-link">Explore Service →</a>
+            </div>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="srv-card" data-reveal="up" data-delay="400">
+            <div class="srv-img">
+              <img src="./images/application.jpg" alt="Application" />
+              <div class="srv-img-overlay"></div>
+            </div>
+            <div class="srv-body">
+              <span class="srv-tag">Analytics</span>
+              <h4>Softwer Aplication Dovelopment</h4>
+              <p>
+                Software application development is the process of creating
+                computer programs that perform specific tasks...
+              </p>
+              <a href="#" class="srv-link">Explore Service →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ================ SERVICES Section html work END======================== -->
+    <!-- ======================WHY CHOOSE US HTML WORK START ===================-->
+    <section class="why-sec" id="why-us">
+      <div class="container">
+        <div class="row g-5 align-items-center">
+          <div class="col-lg-5" data-reveal="right">
+            <div class="section-eyebrow">Why Choose Us</div>
+            <h2 class="section-h">The Difference Is In The Details</h2>
+            <p class="section-p">
+              16+ years of engineering excellence distilled into a delivery
+              methodology that works — every single time.
+            </p>
+
+            <div class="why-metrics">
+              <div class="wm-item">
+                <div class="wm-bar-wrap">
+                  <div class="wm-label-row">
+                    <span> Highly Satisfied Clients</span><strong>98%</strong>
+                  </div>
+                  <div class="wm-bar">
+                    <div class="wm-fill" data-w="98"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="wm-item">
+                <div class="wm-bar-wrap">
+                  <div class="wm-label-row">
+                    <span>On-Time Delivery</span><strong>94%</strong>
+                  </div>
+                  <div class="wm-bar">
+                    <div class="wm-fill" data-w="94"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="wm-item">
+                <div class="wm-bar-wrap">
+                  <div class="wm-label-row">
+                    <span>Customer Support</span><strong>99.9%</strong>
+                  </div>
+                  <div class="wm-bar">
+                    <div class="wm-fill" data-w="99.9"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <a href="#contact" class="btn-main mt-5 d-inline-block"
+              >Start a Project →</a
+            >
+          </div>
+
+          <!-- Image grid right -->
+          <div class="col-lg-7" data-reveal="left">
+            <div class="why-img-grid">
+              <div class="wig-tall">
+                <img src="./images/photo-why.avif" alt="Strategy session" />
+              </div>
+              <div class="wig-stack">
+                <div class="wig-sm">
+                  <img src="./images/why-choose-2.avif" alt="Agile team" />
+                  <div class="wig-sm-label">Agile Teams</div>
+                </div>
+                <div class="wig-sm">
+                  <img src="./images/photo-why-2.avif" alt="24/7 Support" />
+                  <div class="wig-sm-label">24/7 Support</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ======================WHY CHOOSE US HTML WORK END ===================-->
+    <!--============================ Certificate  Section HTML WORK START==============-->
+    <section class="trust-section">
+      <div class="ambient-glow glow-top-left"></div>
+      <div class="ambient-glow glow-bottom-right"></div>
+
+      <div class="container position-relative" style="z-index: 10">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6" data-aos="fade-right">
+            <span class="status-badge">Certifications</span>
+            <h2 class="display-5 fw-bold mb-4">Our Certifications</h2>
+            <p class="lead text-white-50 mb-4">
+              We maintain world-class standards and elite partnerships to ensure
+              your projects are handled with expert precision and security.
+            </p>
+
+            <div class="d-none d-lg-flex award-seal-wrap">
+              <div class="award-icon-inner">
+                <i
+                  data-lucide="award"
+                  style="width: 70px; height: 70px; color: var(--accent-glow)"
+                ></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="row g-3">
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="glass-panel d-flex align-items-center gap-3">
+                  <i data-lucide="check-circle" class="icon-check-accent"></i>
+                  <span class="fw-medium">ISO 9001:2015 Quality</span>
+                </div>
+              </div>
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+                <div class="glass-panel d-flex align-items-center gap-3">
+                  <i data-lucide="check-circle" class="icon-check-accent"></i>
+                  <span class="fw-medium">ISO 27001 Security</span>
+                </div>
+              </div>
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                <div class="glass-panel d-flex align-items-center gap-3">
+                  <i data-lucide="shield-check" class="icon-check-accent"></i>
+                  <span class="fw-medium">Google Certified</span>
+                </div>
+              </div>
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+                <div class="glass-panel d-flex align-items-center gap-3">
+                  <i data-lucide="shield-check" class="icon-check-accent"></i>
+                  <span class="fw-medium">Microsoft Gold</span>
+                </div>
+              </div>
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
+                <div class="glass-panel d-flex align-items-center gap-3">
+                  <i data-lucide="cloud" class="icon-check-accent"></i>
+                  <span class="fw-medium">AWS Advanced</span>
+                </div>
+              </div>
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="600">
+                <div class="glass-panel d-flex align-items-center gap-3">
+                  <i data-lucide="Zap" class="icon-check-accent"></i>
+                  <span class="fw-medium">Salesforce Partner</span>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="glass-panel mt-4 border-0 shadow-sm"
+              style="background: rgba(255, 255, 255, 0.04)"
+              data-aos="fade-up"
+              data-aos-delay="700"
+            >
+              <p class="summary-note mb-0 text-center">
+                Our engineering team is constantly upskilling. We hold over 50+
+                individual professional certifications across various tech
+                stacks.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--============================ Certificate  Section HTML WORK END==============-->
+    <!-- ====================- CTA SECTION HTML WORK START =================== -->
+    <section class="cta-sec" id="contact">
+      <div class="container">
+        <div class="cta-inner" data-reveal="up">
+          <img
+            src="./images/cta-img.avif"
+            alt="Team working"
+            class="cta-bg-img"
+          />
+          <div class="cta-dark-overlay"></div>
+          <div class="cta-text">
+            <h2>Ready to Build Something Great?</h2>
+            <p>
+              Talk to our experts. No sales pitch — just real conversations
+              about real problems.
+            </p>
+            <div class="cta-btns">
+              <a href="#" class="btn-main">Email Us</a>
+              <a href="#" class="btn-main-inv">Schedule a Call</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ====================- CTA SECTION HTML WORK END =================== -->
+    <!-- ====================== FOOTER HTML WORK START ==================== -->
+    <footer class="main-footer">
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-lg-3 col-md-6" data-aos="fade-up">
+            <div class="d-flex align-items-center gap-2 mb-4">
+              <div class="footer-logo-box">
+                <img src="./images/Orante-Footer-logo.png" alt="footer-logo" style="width: 180px;" />
+              </div>
+            </div>
+            <p class="text-muted-custom mb-4" style="color: var(--text-muted)">
+              Transforming businesses through innovative technology solutions.
+              Your trusted partner in digital transformation.
+            </p>
+            <div class="d-flex gap-2">
+              <a href="#" class="social-btn"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="#" class="social-btn"
+                ><i class="fa-brands fa-facebook-f"></i
+              ></a>
+              <a href="#" class="social-btn"
+                ><i class="fa-brands fa-x-twitter"></i
+              ></a>
+              <a href="#" class="social-btn"
+                ><i class="fa-brands fa-linkedin-in"></i
+              ></a>
+            </div>
+          </div>
+
+          <div
+            class="col-lg-3 col-md-6"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <h5 class="fw-bold mb-4">Useful Links</h5>
+            <div class="footer-link-list">
+              <a href="#home" class="footer-link-item"
+                ><span class="dot-indicator"></span> Home</a
+              ><br />
+              <a href="#about" class="footer-link-item"
+                ><span class="dot-indicator"></span> About</a
+              ><br />
+              <a href="#services" class="footer-link-item"
+                ><span class="dot-indicator"></span> Services</a
+              ><br />
+              <a href="#career" class="footer-link-item"
+                ><span class="dot-indicator"></span> Career</a
+              ><br />
+              <a href="#blog" class="footer-link-item"
+                ><span class="dot-indicator"></span> Blog</a
+              >
+            </div>
+          </div>
+
+          <div
+            class="col-lg-3 col-md-6"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <h5 class="fw-bold mb-4">Our Services</h5>
+            <div class="footer-link-list">
+              <a href="#" class="footer-link-item"
+                ><span class="dot-indicator"></span> Website Development</a
+              ><br />
+              <a href="#" class="footer-link-item"
+                ><span class="dot-indicator"></span> Mobile App Dev</a
+              ><br />
+              <a href="#" class="footer-link-item"
+                ><span class="dot-indicator"></span> Digital Marketing</a
+              ><br />
+              <a href="#" class="footer-link-item"
+                ><span class="dot-indicator"></span> Cloud Solutions</a
+              ><br />
+              <a href="#" class="footer-link-item"
+                ><span class="dot-indicator"></span> AI & ML Services</a
+              >
+            </div>
+          </div>
+
+          <div
+            class="col-lg-3 col-md-6"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
+            <h5 class="fw-bold mb-4">Contact Us</h5>
+            <div class="d-flex align-items-start gap-3 mb-3">
+              <div class="contact-icon-box">
+                <i data-lucide="mail" style="color: #6ee7b7; width: 20px"></i>
+              </div>
+              <span class="pt-1" style="color: var(--text-muted)"
+                > info@ornatets.com</span
+              >
+            </div>
+            <div class="d-flex align-items-start gap-3 mb-3">
+              <div class="contact-icon-box">
+                <i data-lucide="phone" style="color: #6ee7b7; width: 20px"></i>
+              </div>
+              <span class="pt-1" style="color: var(--text-muted)"
+                >0120 - 4484 - 666</span
+              >
+            </div>
+            <div class="d-flex align-items-start gap-3">
+              <div class="contact-icon-box">
+                <i
+                  data-lucide="map-pin"
+                  style="color: #6ee7b7; width: 20px"
+                ></i>
+              </div>
+              <span class="pt-1" style="color: var(--text-muted)">
+                H 34, Sector 63, Noida - 201301</span
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom row align-items-center">
+          <div class="col-md-7 text-center text-md-start mb-3 mb-md-0">
+            © 2026 ornate Techno Service Pvt. Ltd. All Rights Reserved.
+          </div>
+          <div class="col-md-5 text-center text-md-end bottom-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms</a>
+            <a href="#">Cookies</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- ====================== FOOTER HTML WORK END ==================== -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+    <script>
+      lucide.createIcons();
+      AOS.init({
+        duration: 900,
+        once: true,
+        offset: 120,
+        easing: 'ease-out-quad',
+      });
+    </script>
+  </body>
+</html>
